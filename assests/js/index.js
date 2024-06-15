@@ -13,6 +13,7 @@ panda.addEventListener("click", function () {
     panda.style.border = 'none';
   };
 });
+
 //Ejercicio de los dulces/stickers/etc.
 buton.addEventListener("click", function() {
   let valorTotal = Number(valor1.value) + Number(valor2.value) + Number(valor3.value);
@@ -21,3 +22,5 @@ if (valorTotal >=10) {
   alert('todo ok')
 }
 });
+
+// Aca va el de clave de seguridad
