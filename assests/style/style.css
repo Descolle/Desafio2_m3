@@ -20,9 +20,9 @@
 #main {
   display: grid;
   grid-template-areas:
-  "head"
-  "body"
-  "texto";
+    "head"
+    "body"
+    "texto";
 }
 .sweets-container {
   display: flex;
@@ -38,6 +38,43 @@
   margin-top: 100px;
 }
 .text-js {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*Aca va el CSS de la page3*/
+
+#principal {
+  display: grid;
+  grid-template-areas:
+    "head"
+    "main"
+    ;
+}
+.head {
+  grid-area: head;
+}
+.medio {
+  display: grid;
+  grid-area: main;
+  border: 2px solid black;
+  background-color: aqua;
+}
+.respuesta {
+  display: grid;
+  grid-area: texto;
+}
+
+.password-main {
+  display: flex;
+}
+.password-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.password-option {
   display: flex;
   flex-direction: row;
   justify-content: center;
