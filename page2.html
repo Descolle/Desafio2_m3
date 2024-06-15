@@ -14,7 +14,7 @@
   </head>
   <body>
     <div id="main">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary head">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary head p-3 mb-2 bg-primary-subtle text-primary-emphasis">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">Desafio 2 Condiciones</a>
           <button
@@ -31,7 +31,7 @@
         </div>
       </nav>
       <div class="sweets-container">
-        <div class="card" style="width: 18rem">
+        <div class="card border border-4" style="width: 18rem">
           <img
             src="./assests/img/pastel 1.png"
             class="card-img-top"
@@ -40,13 +40,12 @@
           <div class="card-body">
             <h5 class="card-title">Pastel Selva Negra</h5>
             <p class="card-text">
-              En este ejercicio, Por medio de JS lograremos añadir o quitar un
-              borde a una imagen.
+              Bizcocho casero de Chocolate con relleno de mermelada.
             </p>
-            <input type="number" value="0" id="valor1" />
+            <input type="number" min="0" value="0" id="valor1" />
           </div>
         </div>
-        <div class="card" style="width: 18rem">
+        <div class="card border border-4" style="width: 18rem">
           <img
             src="./assests/img/pastel 2.png"
             class="card-img-top"
@@ -55,31 +54,29 @@
           <div class="card-body">
             <h5 class="card-title">Helado Frambuesa</h5>
             <p class="card-text">
-              En este ejercicio, Por medio de JS lograremos añadir o quitar un
-              borde a una imagen.
+              Helado casero con frutillas cultivadas localmente.
             </p>
-            <input type="number" value="0" id="valor2" />
+            <input type="number" value="0" min="0" id="valor2" />
           </div>
         </div>
-        <div class="card" style="width: 18rem">
+        <div class="card border border-4" style="width: 18rem">
           <img
             src="./assests/img/pastel 3.png"
             class="card-img-top"
             alt="..."
           />
           <div class="card-body">
-            <h5 class="card-title">Galletas con chispas de chocolate</h5>
+            <h5 class="card-title">Galletas</h5>
             <p class="card-text">
-              En este ejercicio, Por medio de JS lograremos añadir o quitar un
-              borde a una imagen.
+              Las clásicas galletas de la abuela, una receta familiar.
             </p>
-            <input type="number" value="0" id="valor3" />
+            <input type="number" min="0" value="0" id="valor3" />
           </div>
         </div>
       </div>
       <div class="response">
         <div class="text-js">
-          <button id="suma">¿Cuantos dulces llevas?</button>
+          <button  class="rounded" id="suma">¿Cuantos dulces llevas?</button>
           <p id="text_response"></p>
         </div>
       </div>

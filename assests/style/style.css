@@ -2,19 +2,29 @@
   margin: 0px;
   padding: 0px;
 }
-
+.barra {
+  background-color: violet;
+}
 .main-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 30px;
 }
 .caja-panda {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 30px;
+  background-image: url(../img/bambu.jpg);
+  background-size: cover;
 }
-
+.img-panda {
+  margin-top: 50px;
+}
+.text-panda {
+  background-color: white;
+  border: 1px solid gray;
+}
 /* aca va el css para la pagina 2 */
 
 #main {
@@ -29,6 +39,8 @@
   flex-direction: row;
   justify-content: space-around;
   grid-area: body;
+  background-image: url(../img/pink\ pastel.jpg);
+  background-size: cover;
 }
 .head {
   grid-area: head;
@@ -50,7 +62,8 @@
   grid-template-areas:
     "head"
     "main"
-    ;
+    "main"
+    "main";
 }
 .head {
   grid-area: head;
@@ -66,16 +79,20 @@
   grid-area: texto;
 }
 
-.password-main {
+#password-main {
   display: flex;
-}
-.password-text {
-  display: flex;
+  justify-content: center;
   flex-direction: column;
-  align-items: center;
 }
 .password-option {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 3px;
+  font-size: 15px;
+}
+.password-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -10,11 +10,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assests/style/style.css" />
+    <script src="https://kit.fontawesome.com/5e3573f07d.js" crossorigin="anonymous"></script>
     <title>Document</title>
   </head>
   <body>
     <div id="principal">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary head">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary head p-3 mb-2 bg-primary-subtle text-primary-emphasis">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">Desafio 2 Condiciones</a>
           <button
@@ -32,12 +33,11 @@
       </nav>
       <div class="medio">
         <div id="password-main">
-          <div>
-            <div class="password-text">
-              <h3>Ingrese la contraseña</h3>
-              <p>aca va el logo de un candado</p>
-            </div>
-            <div class="password-option">
+              <div class="password-text">
+                <h3>Ingresa la contraseña</h3>
+                <i class="fa-solid fa-lock candado"></i>
+              </div>
+          <div class="password-option">
               <select name="" id="option1">
                 <option value="0">0</option>
                 <option value="1">1</option>
@@ -75,13 +75,11 @@
                 <option value="9">9</option>
               </select>
               <button id="validar">Validar</button>
-            </div>
           </div>
         </div>
-        <div class="respuesta">
-          <p id="answer">Respueta de la clave</p>
+        <div class="password-text">
+          <p id="answer">respuesta</p>
         </div>
-      </div>
     </div>
     <script src="./assests/js/page3.js"></script>
   </body>
