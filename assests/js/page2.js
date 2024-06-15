@@ -9,6 +9,7 @@ buton.addEventListener("click", function() {
     let valorTotal = Number(valor1.value) + Number(valor2.value) + Number(valor3.value);
   if (valorTotal >=10) {
     console.log('funciona')
-    respuestaTexto.innerHTML = ('Llevas demasiados dulces')
-  }
-  });
+    respuestaTexto.innerHTML = ('<strong>Llevas demasiados dulces</strong>');
+  } else {
+    respuestaTexto.innerHTML = (`Llevas ${valorTotal} dulces`)
+ }});

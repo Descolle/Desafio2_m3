@@ -17,13 +17,27 @@
 
 /* aca va el css para la pagina 2 */
 
+#main {
+  display: grid;
+  grid-template-areas:
+  "head"
+  "body"
+  "texto";
+}
 .sweets-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  grid-area: body;
 }
-
+.head {
+  grid-area: head;
+}
 .response {
+  grid-area: texto;
+  margin-top: 100px;
+}
+.text-js {
   display: flex;
   flex-direction: row;
   justify-content: center;
