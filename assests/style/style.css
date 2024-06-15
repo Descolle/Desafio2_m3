@@ -14,3 +14,12 @@
   align-items: center;
   margin-top: 30px;
 }
+
+/* aca va el css para la pagina 2 */
+
+.sweets-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
